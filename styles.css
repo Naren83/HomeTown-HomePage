@@ -1,0 +1,167 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+.main{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+#city{
+width: 225px;
+height: 42px;
+left: 247px;
+top: 119px;
+margin-top:-20px;
+
+background: #1D3557;
+border-radius: 10px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 37px;
+text-align: center;
+padding: 5px 12px 3px 10px;
+
+color: #FFFFFF;
+
+}
+
+#details{
+width: 412px;
+height: 52px;
+left: calc(50% - 412px/2);
+top: calc(50% - 52px/2 + 26.5px);
+
+background: #457B9D;
+border-radius: 10px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 18.72px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+padding : 8px 29px 3px 29px; 
+margin-bottom: 50px;
+}
+
+.section{
+    background-image: url("images/torshov.jpg");
+    background-size : cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    width: 720px;
+    height: 343px;
+    left: 0px;
+top: 0px; 
+}
+
+.activities{
+width: 720px;
+height: 378px;
+left: 0px;
+top: 343px;
+
+background: #F1FAEE;
+}
+
+.guide{
+   width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #A8DADC;;
+    color: #2b2839;
+    margin-bottom: 50px;
+    box-shadow: 0px 6px 0px #1D3557;
+}
+    
+.container{
+    display: flex;
+    
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    width: 103.97px;
+height: 103.97px;
+left: 314px;
+top: 113px;
+ border-radius: 50%;
+}
+
+h4{
+ font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+
+color: #1D3557;
+
+
+}
+
+p{
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 17px;
+text-align: center;
+
+
+
+color: #1D3557;
+
+}
+#three{
+    margin-bottom: 50px;
+    margin-top: 39px;
+}
+
+
+#guide-img{
+    width: 180px;
+height: 248.67px;
+left: 173px;
+top: 73px;
+background: url(per.jpg);
+border-radius: 10px;
+}
+#italic{
+    width: 180px;
+    font-family: 'Arial';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+
+color: #1D3557;
+
+    
+
+}
